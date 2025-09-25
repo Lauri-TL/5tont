@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5ton't | QuintoNt</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    }
+
+    header h1 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    max-width: 600px;  /* limita el ancho del texto */
+    word-wrap: break-word;
+    }
+
+    header p {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.1rem;
+    color: #ddd;
+    }
+
+    /* 🔹 Menú de navegación */
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background: #f39c12;
+      color: #fff;
+    }
+
+    .intro {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .intro h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .intro p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #2980b9;
+      color: white;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1f6391;
+    }
+
+    .integrantes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* 🔹 Tarjeta como enlace */
+    .card {
+      display: flex;               /* Flex interno */
+      flex-direction: column;      /* Apilar elementos */
+      justify-content: space-between; /* Distribuir espacio */
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.3s;
+      color: inherit;
+      text-decoration: none;
+
+      /* 🔹 Tamaño fijo */
+      width: 100%;
+      max-width: 300px;
+      height: 350px;  /* 🔹 Todas del mismo alto */
+      margin: auto;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;        /* 🔹 Alto fijo para imágenes */
+      object-fit: contain;  /* Mantiene proporción */
+      background: #f0f0f0;  /* Fondo gris si sobra espacio */
+    }
+
+    .card h3 {
+      margin: 0.8rem 0 0.4rem 0;
+      font-size: 1.3rem;
+      color: #2c3e50;
+    }
+
+    .card p {
+      padding: 0 1rem 1rem 1rem;
+      font-size: 0.95rem;
+      color: #555;
+      flex-grow: 1;  /* 🔹 Se adapta al espacio disponible */
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pagina de Inicio</h1>
+    <p>Un espacio para compartir un poco sobre este grupo</p>
+  </header>
+
+  <!-- 🔹 Menú -->
+  <nav>
+    <a href="blog.html">Blog del grupo</a>
+    <a href="videos.html">Galeria de videos</a>
+    <a href="mural.html">Mural de fotos</a>
+  </nav>
+
+  <section class="intro">
+    <h2>Presentación</h2>
+    <p>
+      Somos un grupo de 8 integrantes. El mejor grupo, los mejores integrantes.
+    </p>
+  </section>
+
+  <section class="integrantes">
+    <!-- Ejemplo de integrante con enlace -->
+    <a href="! lauri.html" class="card">
+      <img src="default.png" alt="Lauri.png">
+      <h3>Lauri</h3>
+      <p>Descripcion corta: zzz</p>
+    </a>
+
+    <a href="! andre.html" class="card">
+      <img src="default.png" alt="Andre.png">
+      <h3>Andre</h3>
+      <p>Descripcion corta: ...</p>
+    </a>
+
+    <a href="noD.html" class="card">
+      <img src="default.png" alt="Integrante 3">
+      <h3>Integrante 3</h3>
+      <p>Descripcion corta: Breve descripción del integrante, su rol o intereses dentro del grupo.</p>
+    </a>
+
+    <a href="noD.html" class="card">
+      <img src="default.png" alt="Integrante 4">
+      <h3>Integrante 4</h3>
+      <p>Descripcion corta: Breve descripción del integrante, su rol o intereses dentro del grupo.</p>
+    </a>
+
+    <a href="noD.html" class="card">
+      <img src="default.png" alt="Integrante 5">
+      <h3>Integrante 5</h3>
+      <p>Descripcion corta: Breve descripción del integrante, su rol o intereses dentro del grupo.</p>
+    </a>
+
+    <a href="noD.html" class="card">
+      <img src="default.png" alt="Integrante 6">
+      <h3>Integrante 6</h3>
+      <p>Descripcion corta: Breve descripción del integrante, su rol o intereses dentro del grupo.</p>
+    </a>
+
+    <a href="noD.html" class="card">
+      <img src="default.png" alt="Integrante 7">
+      <h3>Integrante 7</h3>
+      <p>Descripcion corta: Breve descripción del integrante, su rol o intereses dentro del grupo.</p>
+    </a>
+
+    <a href="noD.html" class="card">
+      <img src="default.png" alt="Integrante 8">
+      <h3>Integrante 8</h3>
+      <p>Descripcion corta: Breve descripción del integrante, su rol o intereses dentro del grupo.</p>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 Blog del 5ton't - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>

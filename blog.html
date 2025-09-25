@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog del grupo - 5ton't | QuintoNt</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    }
+
+    header h1 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    max-width: 600px;  /* limita el ancho del texto */
+    word-wrap: break-word;
+    }
+
+    header p {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.1rem;
+    color: #ddd;
+    }
+
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background: #f39c12;
+      color: #fff;
+    }
+
+    .contenedor {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .evento {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .evento img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: auto;
+    }
+
+    /* 🎯 Control individual de cada evento */
+    .img-feria {
+      max-width: 800px;
+    }
+    .img-checo1 {
+      max-width: 800px;
+    }
+    .img-checo2 {
+      max-width: 800px;
+    }
+    .img-juniors {
+      max-width: 800px;
+    }
+    .img-amigo {
+      max-width: 800px;
+    }
+    .img-llamada {
+      max-width: 300px;
+    }
+    .img-grondona {
+      max-width: 800px;
+    }
+    .img-pizza {
+      max-width: 800px;
+    }
+    .img-estudiante {
+      max-width: 800px;
+    }
+    .img-danij {
+      max-width: 500px;
+    }
+
+    .evento-info {
+      padding: 1rem 1.5rem;
+    }
+
+    .evento-info h2 {
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    .evento-info p {
+      margin-top: 0.5rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blog del Grupo</h1>
+    <p>Fotos y videos de los integrantes</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="videos.html">Centro de videos</a>
+    <a href="mural.html">Mural de fotos</a>
+  </nav>
+
+  <main class="contenedor">
+
+    <article class="evento">
+      <img src="Fotos/fdc.jpg" alt="foto" class="img-feria">
+      <div class="evento-info">
+        <h2>21 de Mayo del 2025 | Feria de Ciencias</h2>
+        <p>Participamos en la Feria de Ciencias en presentaciones diferentes pero siempre juntos como grupo.</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/ch1.jpg" alt="foto" class="img-checo1">
+      <img src="Fotos/ch2.jpg" alt="foto" class="img-checo2">
+      <div class="evento-info">
+        <h2>30 de Junio del 1943 | Checoslovaquia</h2>
+        <p>...</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/juniorsc.jpg" alt="foto" class="img-juniors">
+      <div class="evento-info">
+        <h2>19 de Julio del 2025 | Cumpleaños de Juniors</h2>
+        <p>Nos juntamos en la casa de Juniors a celebrar su cumpleaños, comimos espetinho y jugamos al jenga, al uno y amogus.</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/amigo.jpg" alt="foto" class="img-amigo">
+      <div class="evento-info">
+        <h2>25 de Julio del 2025 | Día del amigo</h2>
+        <p>Por cuestiones de tiempo, nos juntamos el 25 por motivos del día del amigo. Nos dimos regalos por el juego "El amigo invisble" y comimos milanesas napolitanas.</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/llamada.jpg" alt="foto" class="img-llamada">
+      <div class="evento-info">
+        <h2>22 de Agosto del 2025 | Videollamada</h2>
+        <p>Nos extrañamos tanto que hicimos videollamada (Estabamos todos en el colegio).</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/grondona.jpg" alt="foto" class="img-grondona">
+      <div class="evento-info">
+        <h2>27 de Agosto del 2025 | Despedida del profe</h2>
+        <p>El profe Grondona dejaría de trabajar en el ISCLA ese día.</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/pizza.jpg" alt="foto" class="img-pizza">
+      <div class="evento-info">
+        <h2>29 de Agosto del 2025 | Pizza grupal</h2>
+        <p>Salimos a la costanera por el encuentro intercultural, luego nos juntamos en la Estación a comer pizza.</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/estudiante.jpg" alt="foto" class="img-estudiante">
+      <div class="evento-info">
+        <h2>18 de Septiembre del 2025 | Día del estudiante</h2>
+        <p>Dani fue elegida reina del curso, le acompañamos a participar.</p>
+      </div>
+    </article>
+
+    <article class="evento">
+      <img src="Fotos/danij.jpg" alt="foto" class="img-danij">
+      <div class="evento-info">
+        <h2>20 de Septiembre del 2025 | Juntada en la casa de Dani</h2>
+        <p>Nos juntamos a comer Acai en Best, despues fuimos a la casa de Dani, jugamos con el gato, grabamos tiktoks y cenamos fideos con queso.</p>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Blog del 5ton't - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
